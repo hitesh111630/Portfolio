@@ -16,7 +16,7 @@ export default function Hero() {
       className="min-h-[100vh] flex flex-col items-center justify-center px-4 md:px-16 py-10 md:py-16 bg-[#fff6f1] text-gray-800"
     >
       {/* Hero Content */}
-      <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full gap-4 md:gap-2 pl-40">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full gap-4 md:gap-2">
         {/* Left Text */}
         <motion.div
           initial={{ x: -80, opacity: 0 }}
